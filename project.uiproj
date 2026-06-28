@@ -1,0 +1,6 @@
+{
+  "Name": "UiPath AgentHack_Mail Data Retrieval",
+  "ProjectType": "Process",
+  "Description": "Mail Data Retrieval from the mailbox",
+  "MainFile": "Main.xaml"
+}

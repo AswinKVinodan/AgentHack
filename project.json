@@ -1,0 +1,64 @@
+{
+  "name": "UiPath AgentHack_Mail Data Retrieval",
+  "projectId": "de303a8d-aafb-4a1d-a0ae-17988dd26c4c",
+  "description": "Mail Data Retrieval from the mailbox",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.Activities": "[3.3.0]",
+    "UiPath.Excel.Activities": "[3.5.3]",
+    "UiPath.IntegrationService.Activities": "[1.26.0]",
+    "UiPath.Mail.Activities": "[2.10.0-preview]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.5.10]",
+    "UiPath.OCR.Activities": "[4.3.0]",
+    "UiPath.PDF.Activities": "[4.3.0]",
+    "UiPath.System.Activities": "[26.6.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.196.0",
+  "projectVersion": "1.0.2",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "c7d25a54-f0cb-420e-b494-13d14591154a",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
