@@ -148,6 +148,8 @@ The robot:
 7. Logs the transaction
 8. Sends an order confirmation (optional)
 
+The workflow of SAP automation is made separate. This is available in https://github.com/AswinKVinodan/UiPath-AgentHack-SAP.git
+
 ---
 
 ## Technologies Used
